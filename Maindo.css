@@ -1,3 +1,14 @@
-body {
-
+#splash-animation{
+	width: 1778px;
+	height: 1117px;
+	flex-shrink: 0;
+}
+#logo {
+	width: 628.128px;
+	height: 628.128px;
+	transform: rotate(-0.379deg);
+	flex-shrink: 0;
+}
+#landing-page {
+	background: url(splash 2 maindo 1.png), lightgray -191.771px -288.329px / 112.486% 179.051% no-repeat;
 }
