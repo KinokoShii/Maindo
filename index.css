@@ -1,151 +1,174 @@
 .main {
-    font-family: poppins;
-    width: 100%;
-    display: block;
-    color: white;
-    height: 100%;
-  }
+  font-family: poppins;
+  width: 100%;
+  display: block;
+  color: white;
+  height: 100%;
+}
 
 body {
-    background-color: #D15161;
-    margin: 0;
-    overflow: hidden;
-    min-width: 200px;
+  background-color: #d15161;
+  margin: 0;
+  overflow: hidden;
+  min-width: 200px;
 }
 
 .dalgonaL {
-    background-color: #D64D84 ;
+  background-color: #d64d84;
 }
 
 .taskbar {
-    font-family: poppins;
-    color: white;
-    display: inline-flex;
-    width: 100%;
-    background: linear-gradient(180deg, rgba(114, 54, 21, 0.61) 0%, rgba(114, 54, 21, 0.00) 100%);
-    gap: 150px 0px 0px 0px;
-    justify-content: space-around;
-    font-size: 20px;
-    gap: 15px;
-    align-items: center;
-    font-weight: 600;  
-  }
+  font-family: poppins;
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(114, 54, 21, 0.61) 0%,
+    rgba(114, 54, 21, 0) 100%
+  );
+  gap: 150px 0px 0px 0px;
+  justify-content: space-around;
+  font-size: 20px;
+  gap: 15px;
+  align-items: center;
+  font-weight: 600;
+}
 
-  .dalgonaL .taskbar {
-    background: linear-gradient(180deg, rgba(114, 54, 21, 0.61) 0%, rgba(114, 54, 21, 0.00) 100%);
-  }
+.dalgonaL .taskbar {
+  background: linear-gradient(
+    180deg,
+    rgba(114, 54, 21, 0.61) 0%,
+    rgba(114, 54, 21, 0) 100%
+  );
+}
 
-  .dalgonaL .taskbar .menu, .dalgonaL .taskbar .rewards, .dalgonaL .taskbar .merch, .dalgonaL .taskbar .about, .dalgonaL .taskbar .contact{
-    
-    background-color: linear-gradient(180deg, rgba(114, 54, 21, 0.61) 0%, rgba(114, 54, 21, 0.00) 100%);
-  }
+.dalgonaL .taskbar .menu,
+.dalgonaL .taskbar .rewards,
+.dalgonaL .taskbar .merch,
+.dalgonaL .taskbar .about,
+.dalgonaL .taskbar .contact {
+  background-color: linear-gradient(
+    180deg,
+    rgba(114, 54, 21, 0.61) 0%,
+    rgba(114, 54, 21, 0) 100%
+  );
+}
 
+.taskbar img {
+  width: 8%;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+}
 
-  .taskbar img {
-    width: 8%;
-    height: 10%;
-    margin: 0;
-    padding: 0;
-  }
+.menu:hover,
+.rewards:hover,
+.merch:hover,
+.about:hover,
+.contact:hover {
+  color: black;
+  cursor: pointer;
+}
 
-  
+.paragraph {
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+  height: 1000px;
+  font-size: 1.1em;
+}
 
-  .menu:hover, .rewards:hover, .merch:hover, 
-  .about:hover, .contact:hover {
-    color: black;
-    cursor: pointer; 
-  }
+.paragraph h1 {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  font-weight: 500;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  max-width: 25%;
+  background-color: #d15161;
+  z-index: 2;
+  border-right: 2px solid white;
+  padding-right: 25px;
+  padding-bottom: 21.11%;
+}
 
-  .paragraph {
-    overflow: hidden;
-    position: relative;
-    max-width: 100%;
-    height: 1000px;
-    font-size: 1.1em;
-    
-    
-  }
-
-  .paragraph h1 {
-    position: absolute;
-    top: 10%;
-    left: 25%;
-    font-weight: 500;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 30px;
-    max-width: 25%;
-    background-color: #D15161;
-    z-index: 2;
-
-  }
-
-.paragraph p {
-    position: absolute;
-    top: 23%;
-    left: 25%;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 15px;
-    max-width: 25%;
-    z-index: 3;
-    background-color: #D15161;
+.paragraph p:not(.menu_button) {
+  position: absolute;
+  top: 23%;
+  left: 25%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  max-width: 25%;
+  z-index: 3;
+  background-color: #d15161;
+  font-weight: 600;
 }
 
 .landing img {
-    width: 30%;
-    top: 0%;
-    position: absolute;
-    
+  width: 21%;
+  top: 0.5%;
+  position: absolute;
+  margin-top: 35px;
 }
 
 .landing {
-    position: relative;
-    height: 100%;
+  position: relative;
+  height: 100%;
+  margin-top: -15px;
 }
-  
+
 .vl img {
-    width: 1px;
-    height: 410px;
-    left: 51%;
-    top: 9%;
-    
+  width: 1px;
+  height: 410px;
+  left: 51%;
+  top: 9%;
 }
 
 .espresso_cup img {
-    width: 29%;
-    left: 52%;
-    top: 7%;
+  width: 29%;
+  left: 52%;
+  top: 7%;
 }
 
 .vl2 img {
-    width: 1px;
-    height: 410px;
-    left: 82%;
-    top: 9%;
-    
+  width: 1px;
+  height: 410px;
+  left: 82%;
+  top: 9%;
 }
 
 .ellipse img {
-    width: 70px;
-    left: 79.78%;
-    top: 1.99%;
+  width: 70px;
+  left: 79.78%;
+  top: 1.99%;
 }
 
 .dalgona_espresso img {
-    width: 29%;
-    top: 7%;
-    left: 87%;
+  width: 29%;
+  top: 7%;
+  left: 87%;
 }
 
-.menu_button img {
-    width: 8%;
-    top: 37%;
-    left: 24.85%;
+.menu_button {
+  top: 35%;
+  left: 24.85%;
+  position: absolute;
+  z-index: 5;
+  margin-top: 1%;
+  padding: 8px;
+  background: #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
 }
 
-.dalgonaL p, .dalgonaL h1 {
-  background-color: #D64D84;
+.dalgonaL .paragraph p:not(.menu_button),
+.dalgonaL .paragraph h1 {
+  background-color: #d64d84;
 }
 
-
-
+a .menu_button {
+  color: #fff;
+}
 
