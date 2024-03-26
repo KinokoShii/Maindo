@@ -89,9 +89,6 @@ body {
   max-width: 25%;
   background-color: #d15161;
   z-index: 2;
-  border-right: 2px solid white;
-  padding-right: 25px;
-  padding-bottom: 21.11%;
 }
 
 .paragraph p:not(.menu_button) {
@@ -119,11 +116,14 @@ body {
   margin-top: -15px;
 }
 
-.vl img {
-  width: 1px;
-  height: 410px;
-  left: 51%;
-  top: 9%;
+.vl  {
+ 
+ border-right: #fff 2px solid;
+ width: 50%;
+ height: 100%;
+ background-color: red;
+ 
+ 
 }
 
 .espresso_cup img {
@@ -172,3 +172,45 @@ a .menu_button {
   color: #fff;
 }
 
+.paragraph h2 {
+  position: absolute;
+  left: 81.7%;
+  top: 10%;;
+  font-weight: 500;
+  
+  font-size: 30px;
+  max-width: 25%;
+  margin-top: 0;
+  border-left: 2px solid white;
+  
+  padding-bottom: 26.11%;
+  
+}
+
+h1:not(.txt) {
+  border-right: 2px solid white;
+  margin-top: 0;
+  padding-bottom: 26.11%;
+  top: 10%;
+  left: 51.2%;
+  position: absolute;
+}
+
+.badge h5 {
+  position: relative;
+  font-family: Poppins;
+  font-weight: 450;
+  font-size: 1.2em;
+}
+.badge {
+height: 75px;
+width: 75px;
+display: grid;
+text-align: center;
+vertical-align: middle;
+border-radius: 50%; /* may require vendor prefixes */
+left: 80.5%;
+top: 2%;
+position: absolute;
+border: white solid 2px;
+}
