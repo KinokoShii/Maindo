@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+  font-family: poppins;
+  color: white;
+}
+
+html {
+  font-size: 20px;
+}
+
+.item1 {
+  grid-area: header;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 100%;
+  justify-items: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(114, 54, 21, 0.61) 0%,
+    rgba(114, 54, 21, 0) 100%
+  );
+  font-size: 0.55rem;
+  font-weight: 300;
+}
+.item2 {
+  grid-area: main;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(25, 5%);
+  grid-template-rows: repeat(25, 4%);
+  z-index: 1;
+  overflow: hidden;
+}
+.EspressoB {
+  background-color: #d15161;
+}
+
+.DalgoB {
+  background-color: #d64d84;
+}
+
+.IcedB {
+  background-color: #5fadd0;
+}
+
+.MochaB {
+  background-color: #A75C43;
+}
+
+.PistachioB {
+  background-color: #A3B64C;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+
+  z-index: 1;
+  display: grid;
+  grid-template-rows: 98px 628px;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-areas: "header" "main";
+  row-gap: 20px;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.logo {
+  grid-area: 1/1/1/1;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.menu {
+  grid-area: 1 / 2 / 1 / 2;
+}
+
+.Rewards {
+  grid-area: 1 / 3 / 1 / 3;
+}
+
+.About-Us {
+  grid-area: 1 / 4 / 1 / 4;
+}
+
+.Contact-Us {
+  grid-area: 1 / 5 / 1 / 5;
+}
+
+.landing {
+  grid-area: 3 / 1 / 23 / 6;
+  background-image: url(Assets/Espresso\ 1.png);
+  background-size: 85%;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.landingD {
+  grid-area: 3 / 1 / 23 / 6;
+  background-image: url(Assets/Dalgona1.png);
+  background-size: 85%;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.landingI {
+  grid-area: 3 / 1 / 23 / 6;
+  background-image: url(Assets/Iced1.png);
+  background-size: 85%;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.landingM {
+  grid-area: 1 / 1 / 23 / 6;
+  background-image: url(Assets/Mocha1.png);
+  background-size: 125%;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.landingP {
+  grid-area: 1 / 1 / 23 / 6;
+  background-image: url(Assets/Pistachio1.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.item2 h1 {
+  grid-area: 5 / 6 / 8 / 11;
+  font-size: 1.8vw;
+  font-weight: 500;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 154px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.IcedB .item2 h1, .MochaB .item2 h1 {
+  grid-area: 3 / 6 / 8 / 11;
+  font-size: 1.8vw;
+  font-weight: 500;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 154px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.item2 p:not(.button) {
+  grid-area: 10 / 6 / 16 / 11;
+
+  font-weight: 600;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1vmax;
+  text-overflow: ellipsis;
+  height: 125px;
+}
+
+.item2 .button {
+  grid-area: 16 / 6 / 18 / 8;
+  margin-top: 1%;
+  padding: 8px;
+  background: #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+  border: black solid 2px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding-right: 0px;
+  margin-right: 40px;
+  min-width: 110px;
+}
+
+.line1 {
+  grid-area: 4 / 11 / 20 / 12;
+  border-left: 2px solid white;
+}
+
+.line2 {
+  grid-area: 4 / 17 / 20 / 18;
+  border-left: 2px solid white;
+}
+
+.circle {
+  grid-area: 1 / 16 / 4 / 18;
+  display: grid;
+  grid-template-columns: repeat(20, 5%);
+  grid-template-rows: repeat(10, 10%);
+}
+
+.circle2 {
+  grid-area: 1 / 6 / 11 / 16;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.circle2 h5,
+.circle2 a {
+  grid-area: 4 / 2 / 8 / 8;
+  margin: 0;
+  font-size: 1.4vw;
+  text-decoration: none;
+}
+
+.circle3 {
+  grid-area: 1 / 10 / 4 / 12;
+  display: grid;
+  grid-template-columns: repeat(20, 5%);
+  grid-template-rows: repeat(10, 10%);
+}
+
+.circle4 {
+  grid-area: 1 / 6 / 11 / 16;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.circle4 h5,
+.circle4 a {
+  grid-area: 4 / 2 / 9 / 8;
+  margin: 0;
+  padding-left: 2px;
+  font-size: 1.4vw;
+  text-decoration: none;
+}
+
+.espresso_cup {
+  grid-area: 4 / 11 / 20 / 17;
+  background-image: url(Assets/Espresso2.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.DalgonaCup1 {
+  grid-area: 4 / 11 / 20 / 17;
+  background-image: url(Assets/Dalgona2.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.IcedCup1 {
+  grid-area: 4 / 11 / 20 / 17;
+  background-image: url(Assets/Iced2.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.MochaCup1 {
+  grid-area: 4 / 11 / 24 / 17;
+  background-image: url(Assets/Mocha2.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.PistachioCup1 {
+  grid-area: 4 / 11 / 24 / 17;
+  background-image: url(Assets/Pistachio2.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+
+.dalgo_cup {
+  background-image: url(Assets/Dalgona2.png);
+  grid-area: 4 / 18 / 20 / 24;
+  background-repeat: no-repeat;
+  background-size: 95%;
+}
+
+.Iced_cup {
+  grid-area: 4 / 18 / 20 / 24;
+  background-image: url(Assets/Iced2.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.MochaCup {
+  grid-area: 4 / 18 / 24 / 24;
+  background-image: url(Assets/Mocha2.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.PistachioCup {
+  grid-area: 4 / 18 / 24 / 24;
+  background-image: url(Assets/Pistachio2.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.EspressoCup {
+  grid-area: 3 / 18 / 20 / 24;
+  background-image: url(Assets/Espresso2.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
