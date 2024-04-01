@@ -48,11 +48,11 @@ html {
 }
 
 .MochaB {
-  background-color: #A75C43;
+  background-color: #a75c43;
 }
 
 .PistachioB {
-  background-color: #A3B64C;
+  background-color: #a3b64c;
 }
 
 body {
@@ -147,7 +147,8 @@ body {
   overflow: hidden;
 }
 
-.IcedB .item2 h1, .MochaB .item2 h1 {
+.IcedB .item2 h1,
+.MochaB .item2 h1 {
   grid-area: 3 / 6 / 8 / 11;
   font-size: 1.8vw;
   font-weight: 500;
@@ -283,7 +284,6 @@ body {
   background-size: 95%;
   background-repeat: no-repeat;
 }
-
 
 .dalgo_cup {
   background-image: url(Assets/Dalgona2.png);
