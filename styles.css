@@ -103,6 +103,7 @@ body {
   background-size: 85%;
   background-repeat: no-repeat;
   z-index: 2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.40));
 }
 
 .landingD {
@@ -111,6 +112,7 @@ body {
   background-size: 85%;
   background-repeat: no-repeat;
   z-index: 2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.40));
 }
 .landingI {
   grid-area: 3 / 1 / 23 / 6;
@@ -118,6 +120,7 @@ body {
   background-size: 85%;
   background-repeat: no-repeat;
   z-index: 2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.40));
 }
 
 .landingM {
@@ -126,6 +129,7 @@ body {
   background-size: 125%;
   background-repeat: no-repeat;
   z-index: 2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.40));
 }
 
 .landingP {
@@ -134,6 +138,7 @@ body {
   background-size: 120%;
   background-repeat: no-repeat;
   z-index: 2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.40));     
 }
 
 .item2 h1 {
@@ -145,6 +150,7 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  
 }
 
 .IcedB .item2 h1,
@@ -318,4 +324,5 @@ body {
   background-image: url(Assets/Espresso2.png);
   background-size: 95%;
   background-repeat: no-repeat;
+  
 }
